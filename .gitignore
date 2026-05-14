@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node dependencies and Vite cache
+node_modules/
+visual_demo/node_modules/
+visual_demo/.vite/
+
+# Local browser / automation profiles
+.browser-check/
+.edge-cdp*/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional local logs
+*.log
